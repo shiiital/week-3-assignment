@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: sans-serif;
+      background: #f3f4f6; /* light background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      padding: 24px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #10b981;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+    }
+
+    .name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .role {
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 16px 0;
+    }
+
+    .skills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .badge {
+      background: #10b981;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 999px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">S</div>
+    <div class="name">Shital Achhami</div>
+    <div class="role">Computer Engineering Student</div>
+    <hr>
+    <div class="skills">
+      <div class="badge">Python</div>
+      <div class="badge">C#</div>
+    </div>
+  </div>
+</body>
+</html>
